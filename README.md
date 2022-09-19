@@ -32,7 +32,8 @@ The following image shows the web application's appearance and functionality:
 
 ![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/images/01-html-css-git-homework-demo.png)
 
-> **Note**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px.
+## Deployed application : https://begirlz.github.io/Horiseon/
+> **Note**: This layout is designed for desktop viewing with minimum resolution of 768px.
 
 
 
