@@ -1,17 +1,27 @@
+/*Css Reset*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-html{
-    min-width:768px;
+/*define heading attributes in sequential order*/
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 24px;
 }
 
+/*Styling web body*/
 body {
     background-color: #d9dcd6;
 }
 
+/*header - Styling header section*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,15 +29,17 @@ body {
     color: #ffffff;
 }
 
+/*header - styling header elements h1*/
 .header h1 {
     display: inline-block;
-    font-size: 48px;
 }
 
+/*header - Styling span element under class name "seo"*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*header - Stylying navigation bar*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -36,24 +48,29 @@ body {
     font-size: 20px;
 }
 
+/*header - Set unorder list style to none*/
 .header nav ul {
     list-style-type: none;
 }
 
+/*header - displying list items in a single line*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Styling a tag*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Styling p tag*/
 p {
     font-size: 16px;
 }
 
+/*Figure tag - Styling*/
 .hero {
     height: 800px;
     width: 100%;
@@ -63,22 +80,45 @@ p {
     background-position: center;
 }
 
+/*Display content on the left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Display content on the right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*main tag - displaying inline content, apply to all under main tag*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*main tag - styling each article*/
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*main-tag - set each image width*/
+.content article img {
+    max-height: 200px;
+}
+
+/*main tag - set each heading attributes*/
+.content article h2 {
+    margin-bottom: 20px;
+}
+
+/*aside tag - styling all under aside tag*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -90,40 +130,26 @@ p {
     background-color: #2589bd;
 }
 
+/*aside tag - styling each section*/
 .benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*aside tag - styling heading attributes*/
 .benefits section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*asod tag - set each image widt*/
 .benefits section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.content article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content article img {
-    max-height: 200px;
-}
-
-.content article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*footer - styling all*/
 .footer {
     padding: 30px;
     clear: both;
@@ -131,6 +157,7 @@ p {
     text-align: center;
 }
 
+/*footer - styling heading attributes*/
 .footer h2 {
     font-size: 20px;
 }
